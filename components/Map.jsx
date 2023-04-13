@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import { Box, Image, Text } from "@chakra-ui/react";
 import React, { useState } from "react";
 import GoogleMapReact from "google-map-react";
@@ -10,7 +11,7 @@ const Map = ({ coordinates, setCoordinates, setBounds, places }) => {
   return (
     <Box width={"full"} height={"full"}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "Your_API_KEY" }}
+        bootstrapURLKeys={{ key: "AIzaSyAGiVLvaL7CS1nPa8yLJ2CxcLSie_7Fr9M" }}
         defaultCenter={coordinates}
         center={coordinates}
         defaultZoom={10}
