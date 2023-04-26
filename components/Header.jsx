@@ -53,7 +53,7 @@ const Header = ({ setType, setRatings, setCoordinates }) => {
 
             <Input
               type={"text"}
-              placeholder="Search Google Map..."
+              placeholder="Denzzi Search Your Stay..."
               variant={"filled"}
               fontSize={18}
               bg={"white"}
